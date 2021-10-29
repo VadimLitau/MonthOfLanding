@@ -2,3 +2,9 @@
 
 @import url(../css/normalize.css);
 @import url(../fonts/fonts.css);
+@import url(../../blocks/root/root.scss);
+//блок header
+@import '../../blocks/main/main.scss';
+@import'../../blocks/header/header.scss';
+@import '../../blocks/header/header__link/header__link.scss';
+@import '../../blocks/header/header__menu/header__menu.scss';

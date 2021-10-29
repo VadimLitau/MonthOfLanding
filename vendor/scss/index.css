@@ -2,4 +2,43 @@
 /*Общие файлы*/
 @import url(../css/normalize.css);
 @import url(../fonts/fonts.css);
-/*# sourceMappingURL=index.css.map */
+@import url(../../blocks/root/root.scss);
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #F4F4F4;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #151515;
+  padding-right: 34px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding-right: 86px;
+  padding-top: 28px;
+}
