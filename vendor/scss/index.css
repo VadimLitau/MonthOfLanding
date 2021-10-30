@@ -62,10 +62,11 @@
 }
 
 .info__image {
-  background-image: url(../../image/info/bgi_info-image.png);
+  background-image: url("../../image/info/bgi_info-image.png");
   background-repeat: no-repeat;
   padding-bottom: 836px;
   padding-right: 610px;
+  position: relative;
 }
 
 .info__text-title {
@@ -86,4 +87,55 @@
   line-height: 28px;
   color: #222222;
   opacity: 0.7;
+}
+
+.info__text-button {
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  padding: 16px 46px;
+  border-radius: 4px;
+  background-color: #24B47E;
+  border: none;
+  margin: 33px 0 153px;
+}
+
+.info__text-bike {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.info__text-bike::after {
+  content: '';
+  background-image: url(../../../image/info/ColorBG.png);
+  width: 132px;
+  height: 2px;
+  position: absolute;
+  top: 10px;
+  left: 222px;
+}
+
+.info__image-bike {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.info__text-wrapper {
+  position: relative;
+  height: 5px;
+}
+
+.info__image-wrapper {
+  position: absolute;
+  height: 439px;
+  top: 372px;
+  left: -200px;
 }
