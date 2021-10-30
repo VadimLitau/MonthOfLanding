@@ -62,7 +62,7 @@
 }
 
 .info__image {
-  background-image: url("../../image/info/bgi_info-image.png");
+  background-image: url('../../image/info/bgi_info-image.png');
   background-repeat: no-repeat;
   padding-bottom: 836px;
   padding-right: 610px;
