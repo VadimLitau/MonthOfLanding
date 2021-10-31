@@ -309,7 +309,7 @@
   line-height: 60px;
   letter-spacing: -0.5px;
   color: #151515;
-  padding: 60px 0 53.81px;
+  padding: 30px 0 83.81px;
 }
 
 .bikes__head-type {
@@ -328,7 +328,7 @@
   text-align: right;
   color: #222222;
   opacity: 0.7;
-  margin-top: 92px;
+  margin-top: 78px;
 }
 
 .bikes__head-road:nth-child(2) {
@@ -376,4 +376,5 @@
   font-size: 18px;
   line-height: 22px;
   color: #151515;
+  padding-top: 22px;
 }
