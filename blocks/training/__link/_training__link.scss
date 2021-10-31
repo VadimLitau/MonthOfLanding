@@ -1,0 +1,13 @@
+.training__link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: $text-color;
+    text-decoration: none;
+}
+
+.training__link:nth-child(1) {
+    padding-right: 30px;
+}
