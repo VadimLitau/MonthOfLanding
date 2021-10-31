@@ -192,6 +192,10 @@
   padding: 10px 490px 4px 0;
 }
 
+.places {
+  margin-bottom: 60px;
+}
+
 .places__slider {
   margin: 0 0 50px 120px;
   position: relative;
