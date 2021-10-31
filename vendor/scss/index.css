@@ -447,3 +447,108 @@
 .training__link:nth-child(1) {
   padding-right: 30px;
 }
+
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #EFEFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 229px;
+  color: #151515;
+  padding: 62px 0 30px;
+}
+
+.footer__wrap-left {
+  padding-left: 120px;
+}
+
+.footer__wrap-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__email {
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  padding: 11px 140px 11px 20px;
+  background-color: #EFEFEF;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  color: #151515;
+  opacity: 0.7;
+  margin-bottom: 82px;
+}
+
+.footer__logo {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #CFCFCF;
+  padding-bottom: 60px;
+}
+
+.footer__switch {
+  background-image: url(../../../image/footer/footerSwitchBgi.svg);
+  background-repeat: no-repeat;
+  padding-right: 44px;
+  margin: 0 144px 77px 0;
+  position: relative;
+}
+
+.footer__switch::before {
+  content: '';
+  background-image: url(../../../image/footer/footerSun.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+
+.footer__switch::after {
+  content: '';
+  background-image: url(../../../image/footer/footerMoon.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 0;
+  left: 65px;
+}
+
+.footer__switch-circle {
+  padding-top: 2px;
+}
