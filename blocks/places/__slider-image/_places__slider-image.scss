@@ -1,0 +1,12 @@
+    .places__slider-image {
+        width: 630px;
+        height: 400px;
+    }
+    
+    .places__slider-image:nth-child(2) {
+        padding: 0 60px;
+    }
+    
+    .places__slider-image:nth-child(3) {
+        padding-right: 60px;
+    }
