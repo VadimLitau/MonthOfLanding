@@ -62,7 +62,7 @@
 }
 
 .info__image {
-  background-image: url('../../image/info/bgi_info-image.png');
+  background-image: url("../../image/info/bgi_info-image.png");
   background-repeat: no-repeat;
   padding-bottom: 836px;
   padding-right: 610px;
@@ -274,4 +274,102 @@
   top: 356px;
   left: 16px;
   z-index: 1;
+}
+
+.bikes {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #F4F4F4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bikes__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bikes__head-name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  padding: 60px 0 53.81px;
+}
+
+.bikes__head-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.bikes__head-road {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+  color: #222222;
+  opacity: 0.7;
+  margin-top: 92px;
+}
+
+.bikes__head-road:nth-child(2) {
+  padding: 0 40px;
+}
+
+.bikes__head-road_active {
+  font-weight: 600;
+  opacity: 1;
+  color: #151515;
+}
+
+.bikes__gallery-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+.bikes__gallery-wrap {
+  background-color: #F4F4F4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+}
+
+.bikes__gallery-image {
+  padding: 20px;
+}
+
+.bikes__gallery-name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151515;
 }
