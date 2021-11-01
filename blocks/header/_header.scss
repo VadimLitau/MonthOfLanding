@@ -1,4 +1,8 @@
 .header {
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    z-index: 5;
+    height: 74px;
+    width: 1440px;
 }
