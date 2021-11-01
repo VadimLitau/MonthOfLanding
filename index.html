@@ -10,16 +10,16 @@
 </head>
 
 <body class="main">
-    <header class="header">
+    <header class="header" id="menu">
         <ul class="header__menu">
             <li>
-                <a class="header__link" href="">Покрытия и градиенты</a>
+                <a class="header__link" href="#coating">Покрытия и градиенты</a>
             </li>
             <li>
-                <a class="header__link" href="">Велосипеды</a>
+                <a class="header__link" href="#bike">Велосипеды</a>
             </li>
             <li>
-                <a class="header__link" href="">Тренировки</a>
+                <a class="header__link" href="#trainin">Тренировки</a>
             </li>
         </ul>
     </header>
@@ -43,7 +43,7 @@
         <h2 class="motivation__text-name">Эдди Меркс</h2>
         <p class="motivation__text-prof">Велогонщик</p>
     </section>
-    <section class="places">
+    <section class="places" id="coating">
         <h2 class="places__title">Шоссе</h2>
         <p class="places__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
         <div class="places__slider">
@@ -71,7 +71,7 @@
                 </svg>
         </button>
     </section>
-    <section class="bikes">
+    <section class="bikes" id="bike">
         <div class="bikes__head">
             <h1 class="bikes__head-name">Велосипеды</h1>
             <ul class="bikes__head-type">
@@ -103,7 +103,7 @@
             </ul>
         </div>
     </section>
-    <section class="training">
+    <section class="training" id="trainin">
         <h1 class="training__title">Тренировки</h1>
         <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
         <ul class="training__links">
@@ -125,6 +125,8 @@
         </div>
     </footer>
     <script src="vendor/js/index.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/js/anchor.js"></script>
 </body>
 
 </html>
