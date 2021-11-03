@@ -3,8 +3,9 @@
 @import url(../css/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../../blocks/root/root.scss);
-//блок header
 @import '../../blocks/main/main';
+//блок header
+@import '../../blocks/content/content';
 @import'../../blocks/header/header';
 @import '../../blocks/header/__link/header__link';
 @import '../../blocks/header/__menu/header__menu';
@@ -14,7 +15,7 @@
 @import '../../blocks/info/__image/info__image';
 @import '../../blocks/info/__text-title/info__text-title';
 @import '../../blocks/info/__text-subtitle/info__text-subtitle';
-@import '../../blocks/info/__text-button/info__text-button';
+@import '../../blocks/info/__text-link/info__text-link';
 @import '../../blocks/info/__text-bike/info__text-bike';
 @import '../../blocks/info/__image-bike/info__image-bike';
 @import '../../blocks/info/__text-wrapper/info__text-wrapper';
@@ -45,6 +46,7 @@
 @import '../../blocks/bikes/__gallery-wrap/bikes__gallery-wrap';
 @import '../../blocks/bikes/__gallery-image/bikes__gallery-image';
 @import '../../blocks/bikes/__gallery-name/bikes__gallery-name';
+@import '../../blocks/bikes/__head-btn/bikes__head-btn';
 //блок training
 @import '../../blocks/training/training';
 @import '../../blocks/training/__title/training__title';
