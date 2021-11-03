@@ -4,5 +4,7 @@
     position: relative;
     z-index: 5;
     height: 74px;
-    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: $bgc-color;
 }

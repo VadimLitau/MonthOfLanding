@@ -9,6 +9,12 @@
   background-color: #F4F4F4;
 }
 
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #F4F4F4;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +25,9 @@
   position: relative;
   z-index: 5;
   height: 74px;
-  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #F4F4F4;
 }
 
 .header__link {
@@ -70,10 +78,6 @@
 }
 
 .info__image {
-  background-image: url("../../image/info/bgi_info-image.png");
-  background-repeat: no-repeat;
-  padding-bottom: 836px;
-  padding-right: 610px;
   position: relative;
 }
 
@@ -85,6 +89,7 @@
   line-height: 60px;
   letter-spacing: -0.5px;
   padding: 25px 0 10px;
+  max-width: 300px;
 }
 
 .info__text-subtitle {
@@ -95,9 +100,10 @@
   line-height: 28px;
   color: #222222;
   opacity: 0.7;
+  margin: 18px 0 68px;
 }
 
-.info__text-button {
+.info__text-link {
   color: #fff;
   font-family: Inter;
   font-style: normal;
@@ -109,7 +115,7 @@
   border-radius: 4px;
   background-color: #24B47E;
   border: none;
-  margin: 33px 0 153px;
+  text-decoration: none;
 }
 
 .info__text-bike {
@@ -134,11 +140,15 @@
   position: -webkit-sticky;
   position: sticky;
   top: 10px;
+  -webkit-box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+          box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  border-radius: 20px;
 }
 
 .info__text-wrapper {
   position: relative;
   height: 5px;
+  margin: 185px 0 15px;
 }
 
 .info__image-wrapper {
@@ -175,7 +185,8 @@
   letter-spacing: -0.5px;
   color: #151515;
   margin: 0;
-  padding-right: 155px;
+  padding-right: 90px;
+  max-width: 500px;
 }
 
 .motivation__text-name {
@@ -202,10 +213,11 @@
 
 .places {
   margin-bottom: 60px;
+  padding-left: 120px;
 }
 
 .places__slider {
-  margin: 0 0 50px 120px;
+  margin-bottom: 50px;
   position: relative;
   max-width: 1320px;
   max-height: 400px;
@@ -220,7 +232,7 @@
   line-height: 60px;
   letter-spacing: -0.5px;
   color: #151515;
-  padding: 64px 0 47px 120px;
+  padding: 64px 0 47px;
   margin: 0;
 }
 
@@ -233,7 +245,7 @@
   color: #222222;
   opacity: 0.7;
   max-width: 480px;
-  padding: 0 0 80px 120px;
+  padding-bottom: 80px;
   margin: 0;
 }
 
@@ -271,7 +283,7 @@
 }
 
 .places__btn_left {
-  margin: 0 20px 0 120px;
+  margin-right: 20px;
 }
 
 .places__slider-icon {
@@ -317,7 +329,7 @@
   line-height: 60px;
   letter-spacing: -0.5px;
   color: #151515;
-  padding: 30px 0 83.81px;
+  padding: 15px 0 83.81px;
 }
 
 .bikes__head-type {
@@ -336,7 +348,7 @@
   text-align: right;
   color: #222222;
   opacity: 0.7;
-  margin-top: 78px;
+  margin-top: 70px;
 }
 
 .bikes__head-road:nth-child(2) {
@@ -385,6 +397,12 @@
   line-height: 22px;
   color: #151515;
   padding-top: 22px;
+}
+
+.bikes__head-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
 }
 
 .training {
