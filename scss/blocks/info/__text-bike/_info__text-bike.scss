@@ -1,0 +1,17 @@
+.info__text-bike {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.info__text-bike::after {
+    content: '';
+    background-image: url(./../../image/info/color_bg.png);
+    width: 132px;
+    height: 2px;
+    position: absolute;
+    top: 10px;
+    left: 222px;
+}

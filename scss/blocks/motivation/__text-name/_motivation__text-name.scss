@@ -1,0 +1,6 @@
+.motivation__text-name {
+    color: $text-color;
+    margin: 0;
+    padding: 253px 470px 0 0;
+    @include text-style(normal, 500, 20px, 32px)
+}

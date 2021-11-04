@@ -1,0 +1,8 @@
+.footer__form-btn {
+    color: $text-color;
+    border: none;
+    background-color: transparent;
+    padding-right: 22px;
+    margin: 0;
+    @include text-style(normal, 500, 13px, 28px);
+}

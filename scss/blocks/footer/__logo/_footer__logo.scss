@@ -1,0 +1,6 @@
+.footer__logo {
+    color: $footer_logo;
+    padding-bottom: 60px;
+    margin-top: 95px;
+    @include text-style(normal, 600, 14px, 20px);
+}

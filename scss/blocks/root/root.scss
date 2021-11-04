@@ -1,0 +1,18 @@
+$text-color: #151515;
+$text-color_subtitle:#222222;
+$bgc-color: #F4F4F4;
+$info_text_link:#24B47E;
+$places_white:#EBEBEB;
+$footer_logo:#CFCFCF;
+$footer_fomr:#C7C7C7;
+$text-link: #ffffff;
+$footer_email:#EFEFEF;
+$font-fam:Inter,
+Arial,
+sans-serif;
+@mixin text-style ($f-style, $f-weight, $f-size, $l-height) {
+    font-style: $f-style;
+    font-weight: $f-weight;
+    font-size: $f-size;
+    line-height: $l-height;
+}

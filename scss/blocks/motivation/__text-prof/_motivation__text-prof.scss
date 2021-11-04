@@ -1,0 +1,6 @@
+.motivation__text-prof {
+    color: $text-color_subtitle;
+    margin: 0;
+    padding: 10px 490px 4px 0;
+    @include text-style(normal, normal, 16px, 28px);
+}

@@ -1,0 +1,7 @@
+.training__title {
+    letter-spacing: -0.5px;
+    color: $text-color;
+    padding: 148px 0 42px;
+    margin: 0;
+    @include text-style(normal, bold, 55px, 60px);
+}

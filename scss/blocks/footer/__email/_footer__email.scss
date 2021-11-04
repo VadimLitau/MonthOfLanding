@@ -1,0 +1,10 @@
+.footer__email {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 11px 118px 11px 20px;
+    background-color: $footer_email;
+    color: $text-color;
+    opacity: 0.7;
+    @include text-style(normal, 500, 13px, 28px);
+}

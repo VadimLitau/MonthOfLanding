@@ -2,11 +2,11 @@
 /*Общие файлы*/
 @import url(../css/normalize.css);
 @import url(../fonts/fonts.css);
-@import url(../../blocks/root/root.scss);
+@import url(../../scss/blocks/root/root.scss);
 .main {
-  max-width: 1440px;
   margin: 0 auto;
   background-color: #F4F4F4;
+  font-family: Inter, Arial, sans-serif;
 }
 
 .content {
@@ -24,21 +24,19 @@
           justify-content: flex-end;
   position: relative;
   z-index: 5;
-  height: 74px;
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 74px auto 0;
   background-color: #F4F4F4;
 }
 
 .header__link {
   text-decoration: none;
-  font-family: Inter;
+  color: #151515;
+  padding-right: 34px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: #151515;
-  padding-right: 34px;
 }
 
 .header__menu {
@@ -51,10 +49,11 @@
           flex-direction: row;
   list-style: none;
   margin: 0;
-  padding: 28px 89px 28px 1010px;
   position: fixed;
+  width: 100%;
+  padding: 28px 0 22px 1140px;
   top: 0;
-  left: 126px;
+  left: 0;
   background-color: #F4F4F4;
 }
 
@@ -82,40 +81,37 @@
 }
 
 .info__text-title {
-  font-family: Inter;
+  letter-spacing: -0.5px;
+  padding: 25px 0 10px;
+  max-width: 300px;
   font-style: normal;
   font-weight: bold;
   font-size: 55px;
   line-height: 60px;
-  letter-spacing: -0.5px;
-  padding: 25px 0 10px;
-  max-width: 300px;
 }
 
 .info__text-subtitle {
-  font-family: Inter;
+  color: #222222;
+  opacity: 0.7;
+  margin: 18px 0 68px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
-  color: #222222;
-  opacity: 0.7;
-  margin: 18px 0 68px;
 }
 
 .info__text-link {
-  color: #fff;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
+  color: #ffffff;
   letter-spacing: 1px;
   padding: 16px 46px;
   border-radius: 4px;
   background-color: #24B47E;
   border: none;
   text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .info__text-bike {
@@ -128,7 +124,7 @@
 
 .info__text-bike::after {
   content: '';
-  background-image: url(./../../image/info/ColorBG.png);
+  background-image: url(./../../image/info/color_bg.png);
   width: 132px;
   height: 2px;
   position: absolute;
@@ -177,38 +173,35 @@
 }
 
 .motivation__text {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 44px;
   letter-spacing: -0.5px;
   color: #151515;
   margin: 0;
   padding-right: 90px;
   max-width: 500px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
 }
 
 .motivation__text-name {
-  font-family: Inter;
+  color: #151515;
+  margin: 0;
+  padding: 253px 470px 0 0;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 32px;
-  color: #151515;
-  margin: 0;
-  padding: 253px 470px 0 0;
 }
 
 .motivation__text-prof {
-  font-family: Inter;
+  color: #222222;
+  margin: 0;
+  padding: 10px 490px 4px 0;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
-  color: #222222;
-  margin: 0;
-  padding: 10px 490px 4px 0;
 }
 
 .places {
@@ -225,28 +218,26 @@
 }
 
 .places__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 60px;
   letter-spacing: -0.5px;
   color: #151515;
   padding: 64px 0 47px;
   margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
 }
 
 .places__subtitle {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
   color: #222222;
   opacity: 0.7;
   max-width: 480px;
   padding-bottom: 80px;
   margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .places__slider-line {
@@ -322,15 +313,14 @@
 }
 
 .bikes__head-name {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 60px;
   letter-spacing: -0.5px;
   color: #151515;
   padding: 15px 0 83.81px;
   margin: 45.65px 0 35px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
 }
 
 .bikes__head-type {
@@ -341,15 +331,13 @@
 }
 
 .bikes__head-road {
-  font-family: Inter;
+  color: #222222;
+  opacity: 0.7;
+  margin-top: 70px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
-  text-align: right;
-  color: #222222;
-  opacity: 0.7;
-  margin-top: 70px;
 }
 
 .bikes__head-road:nth-child(2) {
@@ -391,13 +379,12 @@
 }
 
 .bikes__gallery-name {
-  font-family: Inter;
+  color: #151515;
+  padding-top: 22px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #151515;
-  padding-top: 22px;
 }
 
 .bikes__head-btn {
@@ -424,28 +411,26 @@
 }
 
 .training__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 60px;
   letter-spacing: -0.5px;
   color: #151515;
   padding: 148px 0 42px;
   margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
 }
 
 .training__text {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
   color: #222222;
   opacity: 0.7;
   max-width: 460px;
   margin: 0;
   padding-bottom: 188px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .training__links {
@@ -462,13 +447,12 @@
 }
 
 .training__link {
-  font-family: Inter;
+  color: #151515;
+  text-decoration: none;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  color: #151515;
-  text-decoration: none;
 }
 
 .training__link:nth-child(1) {
@@ -476,7 +460,6 @@
 }
 
 .footer {
-  max-width: 1440px;
   margin: 0 auto;
   background-color: #EFEFEF;
   display: -webkit-box;
@@ -492,18 +475,17 @@
 }
 
 .footer__title {
-  font-family: Inter;
+  max-width: 229px;
+  color: #151515;
+  padding: 62px 0 30px;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  max-width: 229px;
-  color: #151515;
-  padding: 62px 0 30px;
 }
 
 .footer__wrap-left {
-  padding-left: 120px;
+  padding-left: 333px;
 }
 
 .footer__wrap-right {
@@ -517,6 +499,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-right: 232px;
 }
 
 .footer__email {
@@ -526,37 +509,36 @@
   border-radius: 4px;
   padding: 11px 118px 11px 20px;
   background-color: #EFEFEF;
-  font-family: Inter;
+  color: #151515;
+  opacity: 0.7;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 28px;
-  color: #151515;
-  opacity: 0.7;
 }
 
 .footer__logo {
-  font-family: Inter;
+  color: #CFCFCF;
+  padding-bottom: 60px;
+  margin-top: 95px;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #CFCFCF;
-  padding-bottom: 60px;
-  margin-top: 95px;
 }
 
 .footer__switch {
-  background-image: url(./../../image/footer/footerSwitchBgi.svg);
+  background-image: url(../../image/footer/footerswitchbgi.svg);
   background-repeat: no-repeat;
   padding-right: 44px;
   margin: 0 144px 77px 0;
   position: relative;
+  height: 24px;
 }
 
 .footer__switch::before {
   content: '';
-  background-image: url(./../../image/footer/footerSun.svg);
+  background-image: url(../../image/footer/footersun.svg);
   background-repeat: no-repeat;
   width: 28px;
   height: 28px;
@@ -567,7 +549,7 @@
 
 .footer__switch::after {
   content: '';
-  background-image: url(./../../image/footer/footerMoon.svg);
+  background-image: url(../../image/footer/footermoon.svg);
   background-repeat: no-repeat;
   width: 28px;
   height: 28px;
@@ -578,19 +560,19 @@
 
 .footer__switch-circle {
   padding-top: 2px;
+  display: none;
 }
 
 .footer__form-btn {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 28px;
   color: #151515;
   border: none;
   background-color: transparent;
   padding-right: 22px;
   margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
 }
 
 .footer__form {
@@ -606,4 +588,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.footer__switch-btn::before {
+  content: '';
+  background-image: url(../../image/footer/footercicrcle.png);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 2;
 }
