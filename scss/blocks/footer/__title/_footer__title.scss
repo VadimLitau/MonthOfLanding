@@ -1,0 +1,6 @@
+.footer__title {
+    max-width: 229px;
+    color: $text-color;
+    padding: 62px 0 30px;
+    @include text-style(normal, 600, 24px, 32px);
+}

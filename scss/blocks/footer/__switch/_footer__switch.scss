@@ -1,0 +1,30 @@
+.footer__switch {
+    background-image: url(../../image/footer/footerswitchbgi.svg);
+    background-repeat: no-repeat;
+    padding-right: 44px;
+    margin: 0 144px 77px 0;
+    position: relative;
+    height: 24px;
+}
+
+.footer__switch::before {
+    content: '';
+    background-image: url(../../image/footer/footersun.svg);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+.footer__switch::after {
+    content: '';
+    background-image: url(../../image/footer/footermoon.svg);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 65px;
+}

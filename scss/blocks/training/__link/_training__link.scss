@@ -1,0 +1,9 @@
+.training__link {
+    color: $text-color;
+    text-decoration: none;
+    @include text-style(normal, 600, 18px, 28px);
+}
+
+.training__link:nth-child(1) {
+    padding-right: 30px;
+}

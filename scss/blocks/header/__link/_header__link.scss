@@ -1,0 +1,6 @@
+.header__link {
+    text-decoration: none;
+    color: $text-color;
+    padding-right: 34px;
+    @include text-style(normal, 500, 14px, 18px);
+}

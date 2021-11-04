@@ -1,0 +1,6 @@
+.info__text-title {
+    letter-spacing: -0.5px;
+    padding: 25px 0 10px; //значения меньше чем в макете figma, чтобы билось в PP
+    max-width: 300px;
+    @include text-style(normal, bold, 55px, 60px)
+}

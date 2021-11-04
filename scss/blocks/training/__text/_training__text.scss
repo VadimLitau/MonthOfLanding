@@ -1,0 +1,8 @@
+.training__text {
+    color: #222222;
+    opacity: 0.7;
+    max-width: 460px;
+    margin: 0;
+    padding-bottom: 188px;
+    @include text-style(normal, normal, 18px, 28px);
+}
