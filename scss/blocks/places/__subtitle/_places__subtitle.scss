@@ -1,7 +1,7 @@
 .places__subtitle {
     color: $text-color_subtitle;
     opacity: 0.7;
-    max-width: 480px;
+    width: 460px;
     padding-bottom: 80px;
     margin: 0;
     @include text-style(normal, normal, 18px, 28px);
