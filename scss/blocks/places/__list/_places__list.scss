@@ -1,0 +1,11 @@
+.places__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    max-width: 1320px;
+}

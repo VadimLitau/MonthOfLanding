@@ -28,6 +28,7 @@
 //блок places
 @import '../../scss/blocks/places/places';
 @import '../../scss/blocks/places/__slider/places__slider';
+@import '../../scss/blocks/places/__slider-wrap/places__slider-wrap';
 @import '../../scss/blocks/places/__title/places__title';
 @import '../../scss/blocks/places/__subtitle/places__subtitle';
 @import '../../scss/blocks/places/__slider-line/places__slider-line';
@@ -35,6 +36,11 @@
 @import '../../scss/blocks/places/__btn/places__btn';
 @import '../../scss/blocks/places/__btn/_left/places__btn_left';
 @import '../../scss/blocks/places/__slider-icon/places__slider-icon';
+@import '../../scss/blocks/places/__list/places__list';
+@import '../../scss/blocks/places/__list/_slider/places__list_slider';
+@import '../../scss/blocks/places/__list-item/places__list-item';
+@import '../../scss/blocks/places/__list-item/_slider/places__list-item_slider';
+@import '../../scss/blocks/places/__wrap/places__wrap';
 //блок bikes
 @import '../../scss/blocks/bikes/bikes';
 @import '../../scss/blocks/bikes/__head/bikes__head';
