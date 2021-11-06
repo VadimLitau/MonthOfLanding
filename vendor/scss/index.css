@@ -39,6 +39,10 @@
   line-height: 18px;
 }
 
+.header__link:hover {
+  opacity: 0.75;
+}
+
 .header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
