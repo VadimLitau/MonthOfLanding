@@ -594,6 +594,11 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 28px;
+  width: 360px;
+}
+
+.footer__email:hover {
+  opacity: 1;
 }
 
 .footer__logo {
@@ -652,6 +657,11 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 28px;
+  display: none;
+}
+
+.footer__form-btn_active {
+  display: block;
 }
 
 .footer__form {
