@@ -99,32 +99,93 @@
             <div class="bikes__head">
                 <h2 class="bikes__head-name">Велосипеды</h2>
                 <ul class="bikes__head-type">
-                    <li class="bikes__head-road bikes__head-road_active"><button class="bikes__head-btn" type="button">Шоссе</button></li>
-                    <li class="bikes__head-road"><button class="bikes__head-btn" type="button">Грэвел</button></li>
-                    <li class="bikes__head-road"><button class="bikes__head-btn" type="button">ТТ</button></li>
+                    <li class="bikes__head-road bikes__head-road_active" id="bikes-road"><button class="bikes__head-btn" type="button">Шоссе</button></li>
+                    <li class="bikes__head-road" id="bikes-grevel"><button class="bikes__head-btn" type="button">Грэвел</button></li>
+                    <li class="bikes__head-road" id="bikes-tt"><button class="bikes__head-btn" type="button">ТТ</button></li>
                 </ul>
             </div>
-            <div class="bikes__gallery">
-                <ul class="bikes__gallery-photos">
-                    <li>
-                        <figure class="bikes__gallery-wrap">
-                            <img class="bikes__gallery-image" src="image/bikes/higway1.jpg" alt="Cervelo Caledonia-5">
-                            <figcaption class="bikes__gallery-name">Cervelo Caledonia-5</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="bikes__gallery-wrap">
-                            <img class="bikes__gallery-image" src="image/bikes/higway2.jpg" alt="Cannondale Systemsix Himod">
-                            <figcaption class="bikes__gallery-name">Cannondale Systemsix Himod</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="bikes__gallery-wrap">
-                            <img class="bikes__gallery-image" src="image/bikes/higway3.jpg" alt="Trek Domane SL-7">
-                            <figcaption class="bikes__gallery-name">Trek Domane SL-7</figcaption>
-                        </figure>
-                    </li>
-                </ul>
+            <div class="bikes__wrap-gallery">
+                <div class="bikes__gallery bikes__gallery_active_road" id="road">
+                    <!--bikes__gallery_active_road-->
+                    <ul class="bikes__gallery-photos">
+                        <li>
+                            <figure class="bikes__gallery-wrap">
+                                <img class="bikes__gallery-image" src="image/bikes/higway/higway1.jpg" alt="Cervelo Caledonia-5">
+                                <figcaption class="bikes__gallery-name"><a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN" class="bikes__gallery-link" target="_blank">Cervelo Caledonia-5</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="bikes__gallery-wrap bikes__gallery-wrap_indent">
+                                <img class="bikes__gallery-image" src="image/bikes/higway/higway2.jpg" alt="Cannondale Systemsix Himod">
+                                <figcaption class="bikes__gallery-name"><a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" class="bikes__gallery-link" target="_blank">Cannondale Systemsix Himod</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="bikes__gallery-wrap">
+                                <img class="bikes__gallery-image" src="image/bikes/higway/higway3.jpg" alt="Trek Domane SL-7">
+                                <figcaption class="bikes__gallery-name"><a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF" class="bikes__gallery-link" target="_blank">Trek Domane SL-7</a></figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bikes__gallery " id="grevel">
+                    <!--bikes__gallery_active_grevel-->
+                    <ul class="bikes__gallery-photos">
+                        <li>
+                            <figure class="bikes__gallery-wrap">
+                                <img class="bikes__gallery-image" src="image/bikes/grevel/grevel2.png" alt="Cervelo Aspero GRX 810">
+                                <figcaption class="bikes__gallery-name">
+                                    <a href="https://www.sigmasports.com/item/Cervelo/Aspero-GRX-810-1x-Disc-Gravel-Bike-2021/RJDE" class="bikes__gallery-link" target="_blank">Cervelo Aspero GRX 810</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="bikes__gallery-wrap  bikes__gallery-wrap_indent">
+                                <img class="bikes__gallery-image" src="image/bikes/grevel/grevel1.png" alt="Specialized S-Works Diverge">
+                                <figcaption class="bikes__gallery-name">
+                                    <a href="https://www.sigmasports.com/item/Specialized/S-Works-Diverge-Gravel-Bike-2020/NVJ9" class="bikes__gallery-link" target="_blank">Specialized S-Works Diverge</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="bikes__gallery-wrap">
+                                <img class="bikes__gallery-image" src="image/bikes/grevel/grevel3.png" alt="Cannondale Topstone Lefty 3">
+                                <figcaption class="bikes__gallery-name">
+                                    <a href="https://www.sigmasports.com/item/Cannondale/Topstone-Carbon-Lefty-3-Disc-Gravel-Road-Bike-2021/PUC8    " class="bikes__gallery-link" target="_blank">Cannondale Topstone Lefty 3</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bikes__gallery" id="tt">
+                    <!--bikes__gallery_active_tt-->
+                    <ul class="bikes__gallery-photos">
+                        <li>
+                            <figure class="bikes__gallery-wrap">
+                                <img class="bikes__gallery-image" src="image/bikes/tt/tt3.png" alt="Specialized S-Works Shiv">
+                                <figcaption class="bikes__gallery-name">
+                                    <a href="https://www.sigmasports.com/item/Specialized/S-Works-Shiv-Disc-Limited-Edition-Triathlon-Bike-2019/K8P9" class="bikes__gallery-link" target="_blank">Specialized S-Works Shiv</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="bikes__gallery-wrap bikes__gallery-wrap_indent">
+                                <img class="bikes__gallery-image" src="image/bikes/tt/tt1.png" alt="BMC Timemachine 01 ONE">
+                                <figcaption class="bikes__gallery-name">
+                                    <a href="https://www.sigmasports.com/item/BMC/Timemachine-01-One-Force-Disc-TT-Triathlon-Bike-2021/S835" class="bikes__gallery-link" target="_blank">BMC Timemachine 01 ONE</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="bikes__gallery-wrap">
+                                <img class="bikes__gallery-image" src="image/bikes/tt/tt2.png" alt="Cervelo P-Series">
+                                <figcaption class="bikes__gallery-name">
+                                    <a href="https://www.sigmasports.com/item/Cervelo/P-Series-Ultegra-Di2-TT-Triathlon-Bike-2021/RM6Q" class="bikes__gallery-link" target="_blank">Cervelo P-Series</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="training" id="trainin">

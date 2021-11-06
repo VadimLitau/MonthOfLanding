@@ -54,6 +54,13 @@
 @import '../../scss/blocks/bikes/__gallery-image/bikes__gallery-image';
 @import '../../scss/blocks/bikes/__gallery-name/bikes__gallery-name';
 @import '../../scss/blocks/bikes/__head-btn/bikes__head-btn';
+@import '../../scss/blocks/bikes/__gallery/bikes__gallery';
+@import '../../scss/blocks/bikes/__gallery/_active/_road/bikes__gallery_active_road';
+@import '../../scss/blocks/bikes/__gallery/_active/_grevel/bikes__gallery_active_grevel';
+@import '../../scss/blocks/bikes/__gallery/_active/_tt/bikes__gallery_active_tt';
+@import '../../scss/blocks/bikes/__gallery-link/bikes__gallery-link';
+@import '../../scss/blocks/bikes/__wrap-gallery/bikes__wrap-gallery';
+@import '../../scss/blocks/bikes/__gallery-wrap/_indent/bikes__gallery-wrap_indent';
 //блок training
 @import '../../scss/blocks/training/training';
 @import '../../scss/blocks/training/__title/training__title';

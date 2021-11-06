@@ -442,7 +442,6 @@
 }
 
 .bikes__gallery-wrap {
-  background-color: #F4F4F4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -455,21 +454,65 @@
 
 .bikes__gallery-image {
   padding: 20px;
+  -webkit-box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+          box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  border-radius: 20px;
+  background-color: #F4F4F4;
 }
 
 .bikes__gallery-name {
-  color: #151515;
-  padding-top: 22px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
+  padding: 22px 0 0 6px;
 }
 
 .bikes__head-btn {
   border: none;
   background-color: transparent;
   padding: 0;
+  cursor: pointer;
+}
+
+.bikes__gallery {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.bikes__gallery_active_road {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.bikes__gallery_active_grevel {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.bikes__gallery_active_tt {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.bikes__gallery-link {
+  color: #151515;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.bikes__wrap-gallery {
+  position: relative;
+  padding-bottom: 490px;
+}
+
+.bikes__gallery-wrap_indent {
+  margin: 0 30px;
 }
 
 .training {
