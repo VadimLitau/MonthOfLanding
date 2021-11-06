@@ -1,0 +1,5 @@
+.bikes__gallery-link {
+    color: $text-color;
+    @include text-style(normal, 600, 18px, 22px);
+    text-decoration: none;
+}
