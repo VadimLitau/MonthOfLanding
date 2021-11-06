@@ -4,3 +4,7 @@
     padding-right: 34px;
     @include text-style(normal, 500, 14px, 18px);
 }
+
+.header__link:hover {
+    opacity: 0.75;
+}
