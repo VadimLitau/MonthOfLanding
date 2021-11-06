@@ -7,4 +7,9 @@
     color: $text-color;
     opacity: 0.7;
     @include text-style(normal, 500, 13px, 28px);
+    width: 360px;
+}
+
+.footer__email:hover {
+    opacity: 1;
 }
