@@ -2,7 +2,7 @@
 
 @import url(../css/normalize.css);
 @import url(../fonts/fonts.css);
-@import url(../../scss/blocks/root/root.scss);
+@import '../../scss/blocks/root/root.scss';
 @import '../../scss/blocks/main/main';
 //блок header
 @import '../../scss/blocks/content/content';
@@ -80,3 +80,23 @@
 @import '../../scss/blocks/footer/__form-btn/_active/footer__form-btn_active';
 @import '../../scss/blocks/footer/__form/footer__form';
 @import '../../scss/blocks/footer/__switch-btn/footer__switch-btn';
+@import '../../scss/blocks/footer/__switch-btn/_active/footer__switch-btn_active';
+//темная тема
+@import '../../scss/blocks/header/__menu/_dark-theme/header__menu_dark-theme';
+@import '../../scss/blocks/header/__link/_dark-theme/header__link_dark-theme';
+@import '../../scss/blocks/content/_dark-theme/content_dark-theme';
+@import '../../scss/blocks/main/_dark-theme/main_dark-theme';
+@import '../../scss/blocks/info/__text-subtitle/_dark-theme/info__text-subtitle_dark-theme';
+@import '../../scss/blocks/motivation/__text-prof/_dark-theme/motivation__text-prof_dark-theme';
+@import '../../scss/blocks/places/__subtitle/_dark-theme/places__subtitle_dark-theme';
+@import '../../scss/blocks/places/__btn/_dark-theme/places__btn_dark-theme';
+@import '../../scss/blocks/bikes/__head-btn/_dark-theme/bikes__head-btn_dark-theme';
+@import '../../scss/blocks/bikes/__gallery-link/_dark-theme/bikes__gallery-link_dark-theme';
+@import '../../scss/blocks/training/__text/_dark-theme/training__text_dark-theme';
+@import '../../scss/blocks/training/__link/_dark-theme/training__link_dark-theme';
+@import '../../scss/blocks/footer/_dark-theme/footer_dark-theme';
+@import '../../scss/blocks/footer/__email/_dark-theme/footer__email_dark-theme';
+@import '../../scss/blocks/footer/__form/_dark-theme/footer__form_dark-theme';
+@import '../../scss/blocks/footer/__logo/_dark-theme/footer__logo_dark-theme';
+@import '../../scss/blocks/footer/__switch/_dark-theme/footer__switch_dark-theme';
+@import '../../scss/blocks/footer/__form-btn/_dark-theme/footer__form-btn_dark-theme';

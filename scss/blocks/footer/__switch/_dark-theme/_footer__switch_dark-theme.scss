@@ -1,0 +1,13 @@
+.footer__switch_dark-theme {
+    background-image: url(./../../image/footer/darktheme/footerswitchbgidark.svg);
+}
+
+.footer__switch_dark-theme::before {
+    content: '';
+    background-image: url(./../../image/footer/darktheme/footersundark.svg);
+}
+
+.footer__switch_dark-theme::after {
+    content: '';
+    background-image: url(./../../image/footer/darktheme/footermoondark.svg);
+}
