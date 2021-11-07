@@ -10,3 +10,16 @@
     .places__slider-image:nth-child(3) {
         padding-right: 60px;
     }
+    
+    @media (max-width:320px) {
+        .places__slider-image {
+            width: 284px;
+            height: 175px;
+        }
+        .places__slider-image:nth-child(2) {
+            padding: 0 30px;
+        }
+        .places__slider-image:nth-child(3) {
+            padding-right: 30;
+        }
+    }

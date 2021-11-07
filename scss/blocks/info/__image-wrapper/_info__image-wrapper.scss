@@ -4,3 +4,12 @@
     top: 372px;
     left: -200px;
 }
+
+@media (max-width:320px) {
+    .info__image-wrapper {
+        position: absolute;
+        height: 200px;
+        top: 152px;
+        left: -28px;
+    }
+}

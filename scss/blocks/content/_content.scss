@@ -5,3 +5,9 @@
     background-color: $bgc-color;
     color: $text-color;
 }
+
+@media (max-width:320px) {
+    .content {
+        max-width: 320px;
+    }
+}

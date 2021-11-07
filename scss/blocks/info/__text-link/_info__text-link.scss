@@ -15,3 +15,9 @@
 .info__text-link:hover {
     background-position: left bottom;
 }
+
+@media (max-width:320px) {
+    .info__text-link {
+        padding: 15px 98px;
+    }
+}

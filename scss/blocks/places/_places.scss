@@ -2,3 +2,11 @@
     margin-bottom: 60px;
     padding-left: 120px;
 }
+
+@media(max-width:320px) {
+    .places {
+        position: relative;
+        margin: 120px 0 0 0;
+        padding-left: 18px;
+    }
+}

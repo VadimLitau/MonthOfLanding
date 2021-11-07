@@ -4,3 +4,13 @@
     margin: 0;
     @include text-style(normal, bold, 55px, 60px);
 }
+
+@media(max-width:320px) {
+    .places__title {
+        width: 284px;
+        letter-spacing: -0.5px;
+        padding: 0;
+        margin: 0;
+        @include text-style(normal, bold, 32px, 40px);
+    }
+}
