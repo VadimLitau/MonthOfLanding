@@ -2,7 +2,6 @@
 /*Общие файлы*/
 @import url(../css/normalize.css);
 @import url(../fonts/fonts.css);
-@import url(../../scss/blocks/root/root.scss);
 .main {
   margin: 0 auto;
   background-color: #F4F4F4;
@@ -13,6 +12,7 @@
   max-width: 1440px;
   margin: 0 auto;
   background-color: #F4F4F4;
+  color: #151515;
 }
 
 .header {
@@ -207,7 +207,6 @@
 
 .motivation__text {
   letter-spacing: -0.5px;
-  color: #151515;
   margin: 0;
   padding-right: 90px;
   max-width: 500px;
@@ -218,7 +217,6 @@
 }
 
 .motivation__text-name {
-  color: #151515;
   margin: 0;
   padding: 253px 470px 0 0;
   font-style: normal;
@@ -268,7 +266,6 @@
 
 .places__title {
   letter-spacing: -0.5px;
-  color: #151515;
   padding: 64px 0 45px;
   margin: 0;
   font-style: normal;
@@ -373,7 +370,6 @@
 .bikes {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #F4F4F4;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -393,7 +389,6 @@
 
 .bikes__head-name {
   letter-spacing: -0.5px;
-  color: #151515;
   padding: 15px 0 83.81px;
   margin: 45.65px 0 35px;
   font-style: normal;
@@ -410,7 +405,6 @@
 }
 
 .bikes__head-road {
-  color: #222222;
   opacity: 0.7;
   margin-top: 70px;
   font-style: normal;
@@ -534,7 +528,6 @@
 
 .training__title {
   letter-spacing: -0.5px;
-  color: #151515;
   padding: 148px 0 42px;
   margin: 0;
   font-style: normal;
@@ -598,7 +591,6 @@
 
 .footer__title {
   max-width: 229px;
-  color: #151515;
   padding: 62px 0 30px;
   font-style: normal;
   font-weight: 600;
@@ -732,4 +724,92 @@
   top: 2px;
   left: 2px;
   z-index: 2;
+}
+
+.footer__switch-btn_active::before {
+  left: 23px;
+}
+
+.header__menu_dark-theme {
+  background-color: #333333;
+}
+
+.header__link_dark-theme {
+  color: #FFFFFF;
+}
+
+.content_dark-theme {
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+.main_dark-theme {
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+.info__text-subtitle_dark-theme {
+  color: #E5E5E5;
+}
+
+.motivation__text-prof_dark-theme {
+  color: #E5E5E5;
+}
+
+.places__subtitle_dark-theme {
+  color: #E5E5E5;
+}
+
+.places__btn_dark-theme {
+  background-color: #434343;
+}
+
+.bikes__head-btn_dark-theme {
+  color: #E5E5E5;
+}
+
+.bikes__gallery-link_dark-theme {
+  color: #FFFFFF;
+}
+
+.training__text_dark-theme {
+  color: #E5E5E5;
+}
+
+.training__link_dark-theme {
+  color: #E5E5E5;
+}
+
+.footer_dark-theme {
+  background-color: #2F2F2F;
+}
+
+.footer__email_dark-theme {
+  background-color: #2F2F2F;
+}
+
+.footer__form_dark-theme {
+  border: 1px solid rgba(125, 125, 125, 0.5);
+}
+
+.footer__logo_dark-theme {
+  color: #565656;
+}
+
+.footer__switch_dark-theme {
+  background-image: url(./../../image/footer/darktheme/footerswitchbgidark.svg);
+}
+
+.footer__switch_dark-theme::before {
+  content: '';
+  background-image: url(./../../image/footer/darktheme/footersundark.svg);
+}
+
+.footer__switch_dark-theme::after {
+  content: '';
+  background-image: url(./../../image/footer/darktheme/footermoondark.svg);
+}
+
+.footer__form-btn_dark-theme {
+  color: #FFFFFF;
 }
