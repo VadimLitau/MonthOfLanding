@@ -4,3 +4,11 @@
     max-width: 300px;
     @include text-style(normal, bold, 55px, 60px)
 }
+
+@media ( max-width: 320px) {
+    .info__text-title {
+        @include text-style(normal, bold, 32px, 40px);
+        padding: 23px 0 10px;
+        max-width: 184px;
+    }
+}

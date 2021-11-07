@@ -2,3 +2,10 @@
     max-width: 460px;
     padding-left: 120px;
 }
+
+@media ( max-width: 320px) {
+    .info__text {
+        padding-left: 18px;
+        position: absolute;
+    }
+}

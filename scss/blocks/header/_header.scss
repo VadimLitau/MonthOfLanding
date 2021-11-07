@@ -7,3 +7,10 @@
     margin: 74px auto 0;
     background-color: $bgc-color;
 }
+
+@media (max-width:320px) {
+    .header {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}

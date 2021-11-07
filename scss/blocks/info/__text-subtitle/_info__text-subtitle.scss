@@ -4,3 +4,10 @@
     margin: 18px 0 68px;
     @include text-style (normal, normal, 18px, 28px);
 }
+
+@media(max-width:320px) {
+    .info__text-subtitle {
+        margin: 415px 0 53px;
+        @include text-style (normal, normal, 12px, 18px);
+    }
+}

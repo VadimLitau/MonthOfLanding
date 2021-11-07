@@ -1,0 +1,11 @@
+.info__image-bacground {
+    height: 836px;
+    width: 610px;
+}
+
+@media(max-width:320px) {
+    .info__image-bacground {
+        height: 348px;
+        width: 254px;
+    }
+}

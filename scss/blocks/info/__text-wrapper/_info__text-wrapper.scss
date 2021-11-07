@@ -3,3 +3,9 @@
     height: 5px;
     margin: 185px 0 15px;
 }
+
+@media(max-width:320px) {
+    .info__text-wrapper {
+        display: none;
+    }
+}

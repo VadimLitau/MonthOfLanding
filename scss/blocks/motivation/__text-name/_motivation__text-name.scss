@@ -3,3 +3,11 @@
     padding: 253px 470px 0 0;
     @include text-style(normal, 500, 20px, 32px)
 }
+
+@media (max-width:320px) {
+    .motivation__text-name {
+        margin: 38px 0 0 0;
+        padding: 0;
+        @include text-style(normal, 500, 14px, 22px)
+    }
+}

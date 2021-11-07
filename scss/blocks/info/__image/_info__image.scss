@@ -1,3 +1,9 @@
 .info__image {
     position: relative;
 }
+
+@media (max-width:320px) {
+    .info__image {
+        margin: 160px 0 0 48px;
+    }
+}

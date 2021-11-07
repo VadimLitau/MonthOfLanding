@@ -4,3 +4,11 @@
     padding: 10px 490px 4px 0;
     @include text-style(normal, normal, 16px, 28px);
 }
+
+@media (max-width: 320px) {
+    .motivation__text-prof {
+        margin: 5px 0 0 0;
+        padding: 0;
+        @include text-style(normal, normal, 10px, 16px);
+    }
+}

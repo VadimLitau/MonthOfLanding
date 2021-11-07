@@ -3,3 +3,11 @@
     position: relative;
     overflow: hidden;
 }
+
+@media (max-width:320px) {
+    .places__wrap {
+        width: 284px;
+        position: absolute;
+        z-index: 0;
+    }
+}

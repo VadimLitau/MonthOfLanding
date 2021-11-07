@@ -9,3 +9,9 @@
     transition: all ease 1s;
     max-width: 1320px;
 }
+
+@media (max-width:320px) {
+    .places__list {
+        max-width: 320px;
+    }
+}

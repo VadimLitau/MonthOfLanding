@@ -4,3 +4,10 @@
        box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
        border-radius: 20px;
    }
+   
+   @media(max-width:320px) {
+       .info__image-bike {
+           height: 160px;
+           width: 234px;
+       }
+   }
